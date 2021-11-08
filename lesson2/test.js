@@ -1,7 +1,9 @@
-var bar = 42;
-console.log(global.bar); // 42
-bar += 1;
-console.log(global.bar); // 43
+let one = 1;
+let two = 2;
+let three = 3;
 
-let foo = 86;
-console.log(global.foo); // undefined
+let [ num1, num2, num3 ] =  [1,2,3];
+
+console.log(num1);   // 1
+console.log(num2);   // 2
+console.log(num3);   // 3
